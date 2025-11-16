@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Page d'erreur dédiée
+Disallow: /404.html
+
+# Hôte canonique
+Host: www.watersolvency.com
+
+# Pas de sitemap dédié à ce stade
