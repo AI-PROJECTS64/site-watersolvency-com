@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -183,13 +183,13 @@
     <div class="topbar">
       <div class="badge">Actif numérique disponible à l’acquisition</div>
       <div class="lang">
-        <button id="btn-fr" aria-pressed="true">FR</button>
-        <button id="btn-en" aria-pressed="false">EN</button>
+        <button id="btn-fr" aria-pressed="false">FR</button>
+        <button id="btn-en" aria-pressed="true">EN</button>
       </div>
     </div>
 
     <!-- ================= HERO FR ================= -->
-    <section class="card hero" data-fr>
+    <section class="card hero" data-fr hidden>
       <h1>WaterSolvency.com</h1>
       <img class="logo" src="/logo-watersolvency-202511.png" alt="WaterSolvency.com" loading="eager">
       <p class="muted">
@@ -226,7 +226,7 @@
     </section>
 
     <!-- ================= VALUE FR ================= -->
-    <section id="value-fr" class="card" style="margin-top:16px" data-fr>
+    <section id="value-fr" class="card" style="margin-top:16px" data-fr hidden>
       <div class="grid">
         <div class="col-6">
           <h3>Pourquoi WaterSolvency.com a de la valeur</h3>
@@ -261,8 +261,22 @@
       </p>
     </section>
 
+    <!-- ================= COMPLEMENTARY FR ================= -->
+    <section class="card" style="margin-top:16px" data-fr hidden>
+      <h3>Actifs complémentaires (sélection)</h3>
+      <ul class="list">
+        <li class="chip"><a href="https://www.climatesolvency.com" target="_blank" rel="noopener">ClimateSolvency.com</a> — climat & solvabilité systémique</li>
+        <li class="chip"><a href="https://www.energysolvency.com" target="_blank" rel="noopener">EnergySolvency.com</a> — énergie, infrastructures & solvabilité</li>
+        <li class="chip"><a href="https://www.naturesolvency.com" target="_blank" rel="noopener">NatureSolvency.com</a> — capital naturel & solvabilité</li>
+      </ul>
+      <p class="foot">
+        Possibilité de pack « Global Solvency Framework » (eau, énergie, climat, nature).<br>
+        Contact : <a href="mailto:contact@watersolvency.com">contact@watersolvency.com</a>
+      </p>
+    </section>
+
     <!-- ================= ACQUISITION FR ================= -->
-    <section class="card" style="margin-top:16px" data-fr>
+    <section class="card" style="margin-top:16px" data-fr hidden>
       <h3>Acquisition (process sécurisé)</h3>
       <p class="muted">
         Process type : NDA &rarr; échanges stratégiques &rarr; offre formelle &rarr; escrow &rarr; transfert du domaine.
@@ -274,10 +288,11 @@
     </section>
 
     <!-- ================= DOCS FR ================= -->
-    <section class="card" style="margin-top:16px" data-fr>
+    <section class="card" style="margin-top:16px" data-fr hidden>
       <h3>Documents / Briefs</h3>
       <p class="muted">
-        Brief d’acquisition détaillé (2025-11) disponible en français et en anglais pour les équipes Audit, Risques, Finance & Juridique.
+        Brief d’acquisition détaillé (2025-11) disponible pour les équipes Audit, Risques, Finance & Juridique.<br>
+        Version française ci-dessous (la version anglaise est accessible via l’onglet EN du site).
       </p>
       <div class="cta">
         <a class="btn" href="/Acquisition%20Brief%20watersolvency-202511.pdf" target="_blank" rel="noopener" type="application/pdf">
@@ -286,17 +301,11 @@
         <a class="btn primary" href="/Acquisition%20Brief%20watersolvency-202511.pdf" download="Acquisition-Brief-WaterSolvency-FR-202511.pdf" type="application/pdf">
           📥 Télécharger (FR, PDF)
         </a>
-        <a class="btn" href="/Acquisition%20Brief%20watersolvency-EN-202511.pdf" target="_blank" rel="noopener" type="application/pdf">
-          👁️ Open Brief (EN)
-        </a>
-        <a class="btn primary" href="/Acquisition%20Brief%20watersolvency-EN-202511.pdf" download="Acquisition-Brief-WaterSolvency-EN-202511.pdf" type="application/pdf">
-          📥 Download (EN, PDF)
-        </a>
       </div>
     </section>
 
     <!-- ================= HERO EN ================= -->
-    <section class="card hero" data-en hidden>
+    <section class="card hero" data-en>
       <h1>WaterSolvency.com</h1>
       <img class="logo" src="/logo-watersolvency-202511.png" alt="WaterSolvency.com" loading="eager">
       <p class="muted">
@@ -334,7 +343,7 @@
     </section>
 
     <!-- ================= VALUE EN ================= -->
-    <section id="value-en" class="card" style="margin-top:16px" data-en hidden>
+    <section id="value-en" class="card" style="margin-top:16px" data-en>
       <div class="grid">
         <div class="col-6">
           <h3>Why WaterSolvency.com is valuable</h3>
@@ -369,8 +378,22 @@
       </p>
     </section>
 
+    <!-- ================= COMPLEMENTARY EN ================= -->
+    <section class="card" style="margin-top:16px" data-en>
+      <h3>Related assets (selection)</h3>
+      <ul class="list">
+        <li class="chip"><a href="https://www.climatesolvency.com" target="_blank" rel="noopener">ClimateSolvency.com</a> — climate & systemic solvency</li>
+        <li class="chip"><a href="https://www.energysolvency.com" target="_blank" rel="noopener">EnergySolvency.com</a> — energy, infrastructure & solvency</li>
+        <li class="chip"><a href="https://www.naturesolvency.com" target="_blank" rel="noopener">NatureSolvency.com</a> — natural capital & solvency</li>
+      </ul>
+      <p class="foot">
+        Optional “Global Solvency Framework” bundle (water, energy, climate, nature).<br>
+        Contact: <a href="mailto:contact@watersolvency.com">contact@watersolvency.com</a>
+      </p>
+    </section>
+
     <!-- ================= ACQUISITION EN ================= -->
-    <section class="card" style="margin-top:16px" data-en hidden>
+    <section class="card" style="margin-top:16px" data-en>
       <h3>Acquisition (secure process)</h3>
       <p class="muted">
         Typical flow: NDA &rarr; strategic discussions &rarr; formal offer &rarr; escrow &rarr; domain transfer.
@@ -382,10 +405,11 @@
     </section>
 
     <!-- ================= DOCS EN ================= -->
-    <section class="card" style="margin-top:16px" data-en hidden>
+    <section class="card" style="margin-top:16px" data-en>
       <h3>Documents / Briefs</h3>
       <p class="muted">
-        Detailed acquisition brief (2025-11) available in English and French for Audit, Risk, Finance & Legal teams.
+        Detailed acquisition brief (2025-11) available for Audit, Risk, Finance & Legal teams.<br>
+        English version below (French version available via the FR tab).
       </p>
       <div class="cta">
         <a class="btn" href="/Acquisition%20Brief%20watersolvency-EN-202511.pdf" target="_blank" rel="noopener" type="application/pdf">
@@ -393,12 +417,6 @@
         </a>
         <a class="btn primary" href="/Acquisition%20Brief%20watersolvency-EN-202511.pdf" download="Acquisition-Brief-WaterSolvency-EN-202511.pdf" type="application/pdf">
           📥 Download (EN, PDF)
-        </a>
-        <a class="btn" href="/Acquisition%20Brief%20watersolvency-202511.pdf" target="_blank" rel="noopener" type="application/pdf">
-          👁️ Ouvrir le Brief (FR)
-        </a>
-        <a class="btn primary" href="/Acquisition%20Brief%20watersolvency-202511.pdf" download="Acquisition-Brief-WaterSolvency-FR-202511.pdf" type="application/pdf">
-          📥 Télécharger (FR, PDF)
         </a>
       </div>
     </section>
@@ -422,7 +440,7 @@
     };
     frBtn.addEventListener('click', () => show('fr'));
     enBtn.addEventListener('click', () => show('en'));
-    show('fr');
+    show('en');
   </script>
 </body>
 </html>
