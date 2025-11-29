@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Concept Note — WaterSolvency.com</title>
+  <meta name="description" content="Concept Note — WaterSolvency.com: framing the idea of water solvency, from water stress to solvency, indices, stress tests and observatories for financial institutions and corporates." />
+
+  <link rel="canonical" href="https://www.watersolvency.com/concept-note.html" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <!-- Basic OG/Twitter -->
+  <meta property="og:title" content="Concept Note — WaterSolvency.com" />
+  <meta property="og:description" content="Concept Note framing the emerging field of water solvency: linking water stress, economic models and solvency for financial institutions and corporates." />
+  <meta property="og:url" content="https://www.watersolvency.com/concept-note.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://www.watersolvency.com/og.jpg" />
+  <meta property="og:image:alt" content="WaterSolvency.com — digital asset for water & solvency" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://www.watersolvency.com/og.jpg" />
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <style>
+    :root{
+      --bg:#020815;
+      --card:#081120;
+      --muted:#8791b0;
+      --text:#e8eefc;
+      --accent:#7fd0ff;
+      --chip:#101b34;
+      --shadow:0 10px 30px rgba(0,0,0,.45);
+      --radius:18px;
+      --border:#1d2946;
+    }
+    *{box-sizing:border-box}
+    html,body{
+      margin:0;
+      padding:0;
+      background:var(--bg);
+      color:var(--text);
+      font:15px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Arial,sans-serif;
+    }
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:900px;margin:0 auto;padding:24px 20px 40px}
+    .topbar{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:18px;
+      gap:12px;
+    }
+    .topbar-left{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      background:var(--chip);
+      border:1px solid var(--border);
+      border-radius:999px;
+      padding:5px 11px;
+      color:#c1ccec;
+      font-size:12px;
+    }
+    .back-link{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:rgba(8,17,32,.9);
+      font-size:13px;
+      color:var(--muted);
+    }
+    .back-link span.ico{
+      display:inline-block;
+      width:14px;
+      height:14px;
+      border-left:2px solid var(--muted);
+      border-bottom:2px solid var(--muted);
+      transform:rotate(45deg);
+      margin-right:2px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:24px 22px 26px;
+      box-shadow:var(--shadow);
+      margin-bottom:18px;
+    }
+    h1{
+      margin:0 0 6px;
+      font-size:30px;
+      letter-spacing:.3px;
+    }
+    h2{
+      margin:18px 0 6px;
+      font-size:18px;
+    }
+    h3{
+      margin:14px 0 4px;
+      font-size:15px;
+    }
+    .muted{color:var(--muted)}
+    .pill-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin:10px 0 4px;
+    }
+    .pill{
+      background:var(--chip);
+      border-radius:999px;
+      border:1px solid var(--border);
+      padding:5px 10px;
+      font-size:12px;
+      color:#c1ccec;
+      white-space:nowrap;
+    }
+    .btn-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:14px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      background:#122143;
+      color:#fff;
+      border:1px solid #21325b;
+      padding:9px 15px;
+      border-radius:999px;
+      font-size:13px;
+      cursor:pointer;
+      text-decoration:none;
+    }
+    .btn.primary{
+      background:var(--accent);
+      color:#020815;
+      border-color:transparent;
+    }
+    ul{
+      margin:8px 0 8px 18px;
+      padding:0;
+    }
+    li{margin-bottom:4px}
+    .footnote{
+      margin-top:10px;
+      font-size:12px;
+      color:var(--muted);
+    }
+    @media (max-width:640px){
+      .wrap{padding:20px 14px 32px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="topbar-left">
+        <a href="/" class="back-link">
+          <span class="ico" aria-hidden="true"></span>
+          <span>Back to WaterSolvency.com</span>
+        </a>
+        <div class="badge">Concept Note • WaterSolvency.com</div>
+      </div>
+    </header>
+
+    <main>
+      <!-- INTRO -->
+      <section class="card">
+        <h1>Concept Note — WaterSolvency.com</h1>
+        <p class="muted">
+          This Concept Note is an illustrative framing for the idea of <b>“water solvency”</b>.
+          It is not a policy document, not a scientific paper and not an investment proposal.
+          Its sole purpose is to sketch how the banner <b>WaterSolvency.com</b> could be used
+          to connect <b>water stress</b>, <b>economic models</b> and <b>solvency questions</b>
+          for financial institutions and corporates.
+        </p>
+        <div class="pill-row">
+          <span class="pill">Water stress &amp; solvency</span>
+          <span class="pill">Stress-testing &amp; scenarios</span>
+          <span class="pill">Indices &amp; observatories</span>
+          <span class="pill">Financial institutions &amp; corporates</span>
+        </div>
+        <div class="btn-row">
+          <a class="btn primary" href="mailto:contact@watersolvency.com?subject=WaterSolvency.com%20-%20Feedback%20Concept%20Note">
+            Share feedback / Request NDA
+          </a>
+          <a class="btn" href="/">Visit main page</a>
+        </div>
+        <p class="footnote">
+          <b>Disclaimer:</b> this note is descriptive and illustrative only.
+          It does not constitute legal, financial, regulatory or investment advice.
+        </p>
+      </section>
+
+      <!-- 1. WHY WATER SOLVENCY -->
+      <section class="card">
+        <h2>1. Why talk about “water solvency”?</h2>
+        <p class="muted">
+          For many sectors, water is evolving from an operational constraint
+          to a <b>first-order solvency driver</b>. Droughts, chronic scarcity,
+          deteriorating quality, competing uses and regulatory tightening can
+          all affect:
+        </p>
+        <ul>
+          <li>the <b>continuity of operations</b> (plants, data centres, logistics),</li>
+          <li>the <b>cost of capital expenditure</b> (treatment, storage, recycling),</li>
+          <li>the <b>structure of operating costs</b>, margins and cash flows,</li>
+          <li>the <b>valuation of assets</b> exposed to high water stress regions,</li>
+          <li>the <b>creditworthiness</b> of issuers and projects over long horizons.</li>
+        </ul>
+        <p class="muted">
+          The notion of <b>water solvency</b> offers a simple language for boards,
+          risk committees and supervisors to ask:
+          <b>“Can this asset, portfolio or system remain solvent under realistic
+          water stress paths?”</b>
+        </p>
+      </section>
+
+      <!-- 2. POSSIBLE BUILDING BLOCKS -->
+      <section class="card">
+        <h2>2. Possible building blocks of a Water Solvency framework</h2>
+        <h3>2.1. Water stress pathways</h3>
+        <p class="muted">
+          A Water Solvency framework could rely on transparent, science-based
+          pathways for:
+        </p>
+        <ul>
+          <li><b>Physical water risk</b> (scarcity, droughts, floods, pollution),</li>
+          <li><b>Regulatory and pricing changes</b> (abstraction limits, tariffs,
+              prioritisation rules),</li>
+          <li><b>Socio-political dynamics</b> (conflicts of use, community pressure),</li>
+          <li><b>Technological responses</b> (reuse, desalination, efficiency).</li>
+        </ul>
+
+        <h3>2.2. Transmission channels to solvency</h3>
+        <p class="muted">
+          These water pathways can then be linked to standard solvency metrics via
+          channels such as:
+        </p>
+        <ul>
+          <li>changes in <b>revenues and volumes</b>,</li>
+          <li>additional <b>capex / opex</b> to secure water access,</li>
+          <li>asset <b>impairments</b> or stranded facilities,</li>
+          <li>impacts on <b>credit spreads, ratings</b> and capital requirements.</li>
+        </ul>
+
+        <h3>2.3. From single assets to portfolios and systems</h3>
+        <p class="muted">
+          A Water Solvency perspective can be applied to:
+        </p>
+        <ul>
+          <li><b>Individual sites or projects</b> (plant, mine, data centre),</li>
+          <li><b>Corporate issuers or sectors</b> (utilities, food, chips, tourism),</li>
+          <li><b>Financial portfolios</b> (banks, insurers, asset managers),</li>
+          <li><b>Local or national systems</b> (basins, regions, countries).</li>
+        </ul>
+      </section>
+
+      <!-- 3. INDICES, STRESS TESTS, OBSERVATORIES -->
+      <section class="card">
+        <h2>3. Indices, stress tests and observatories</h2>
+        <p class="muted">
+          Under the WaterSolvency.com banner, a buyer could imagine
+          several types of initiatives, for example:
+        </p>
+        <ul>
+          <li>
+            <b>Water Solvency indices</b> summarising the exposure of listed
+            companies, sectors or regions to water stress under specific pathways.
+          </li>
+          <li>
+            <b>Supervisory or internal stress-test exercises</b> exploring the
+            resilience of banks and insurers to severe hydrological scenarios.
+          </li>
+          <li>
+            <b>Observatories</b> tracking major water stress events, regulatory
+            developments and financial impacts in a consistent way.
+          </li>
+          <li>
+            <b>Training programmes</b> for boards, risk functions and sector teams
+            to integrate water into solvency thinking.
+          </li>
+        </ul>
+        <p class="footnote">
+          Examples above are illustrative only. Any real-world initiative would
+          need its own governance, methodologies and regulatory dialogue.
+        </p>
+      </section>
+
+      <!-- 4. GOVERNANCE & LIMITS -->
+      <section class="card">
+        <h2>4. Governance, limits and safeguards</h2>
+        <p class="muted">
+          Because water is both a scientific and a socio-political topic, any
+          serious Water Solvency initiative would require:
+        </p>
+        <ul>
+          <li><b>Transparent methodologies</b> and clear communication of limits,</li>
+          <li><b>Dialogue with scientists, utilities and regulators</b>,</li>
+          <li><b>Robust governance</b> around data sources and scenario design,</li>
+          <li>Explicit separation between <b>analytics</b> and any <b>investment decisions</b>.</li>
+        </ul>
+        <p class="muted">
+          The WaterSolvency.com domain name itself does not provide such governance.
+          It is only a <b>digital banner</b>. The buyer remains fully responsible for
+          any frameworks, products or claims built under that banner.
+        </p>
+      </section>
+
+      <!-- 5. ROLE OF THE DOMAIN NAME -->
+      <section class="card">
+        <h2>5. The role of WaterSolvency.com as a digital asset</h2>
+        <p class="muted">
+          In this context, the <b>WaterSolvency.com</b> domain can play three roles:
+        </p>
+        <ul>
+          <li>
+            As a <b>neutral, memorable label</b> for programmes, indices or
+            observatories connecting water risk and solvency.
+          </li>
+          <li>
+            As a <b>single entry point</b> for boards, supervisors, investors and
+            operators looking for high-level information on “water &amp; solvency”.
+          </li>
+          <li>
+            As part of a broader <b>“Global Solvency Framework”</b> architecture
+            alongside domains such as climate, energy or nature solvency,
+            if the buyer wishes to build a family of concepts.
+          </li>
+        </ul>
+        <p class="muted">
+          None of this is automatic: the value of the domain depends entirely on
+          the seriousness, credibility and long-term investment of its future owner.
+        </p>
+      </section>
+
+      <!-- 6. ACQUISITION -->
+      <section class="card">
+        <h2>6. Acquisition & next steps</h2>
+        <p class="muted">
+          WaterSolvency.com is offered as a <b>descriptive digital asset only</b>.
+          No products, indices, ratings, advisory or software are sold here.
+          Any future framework, index or initiative using the banner would be
+          the sole responsibility of the buyer.
+        </p>
+        <p class="muted">
+          Typical acquisition flow:
+        </p>
+        <ul>
+          <li>NDA,</li>
+          <li>high-level strategic discussion,</li>
+          <li>formal offer and escrow,</li>
+          <li>technical transfer of the domain name.</li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn primary" href="mailto:contact@watersolvency.com?subject=WaterSolvency.com%20-%20NDA%20%2F%20Offer">
+            Submit an offer / Request NDA
+          </a>
+          <a class="btn" href="/">Back to WaterSolvency.com</a>
+        </div>
+        <p class="footnote">
+          © WaterSolvency.com — descriptive digital asset “water & solvency”.
+          No affiliation with rating agencies, regulators or public bodies.
+          Descriptive use only. No legal, financial or regulatory advice.
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
